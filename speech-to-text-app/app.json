@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Speech to Text",
+    "slug": "speech-to-text-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "speechtotext",
+    "icon": "./src/assets/speechToText.png",
+    "splash": {
+      "image": "./src/assets/splashScreen.png",
+      "resizeMode": "native",
+      "backgroundColor": "#000000"
+    },
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.example.speechtotext",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.INTERNET"
+      ],
+      "splash": {
+        "image": "./src/assets/splashScreen.png",
+        "resizeMode": "native",
+        "backgroundColor": "#000000"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/speechToText.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "plugins": [
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "Allow Speech to Text to access the microphone.",
+          "speechRecognitionPermission": "Allow Speech to Text to recognize speech."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
