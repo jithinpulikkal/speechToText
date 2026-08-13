@@ -7,7 +7,7 @@
     "scheme": "speechtotext",
     "icon": "./src/assets/speechToText.png",
     "splash": {
-      "image": "./src/assets/splashScreen.png",
+      "image": "./src/assets/speechToText.png",
       "resizeMode": "native",
       "backgroundColor": "#000000"
     },
@@ -19,7 +19,7 @@
         "android.permission.INTERNET"
       ],
       "splash": {
-        "image": "./src/assets/splashScreen.png",
+        "image": "./src/assets/speechToText.png",
         "resizeMode": "native",
         "backgroundColor": "#000000"
       },
